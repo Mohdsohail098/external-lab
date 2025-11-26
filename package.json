@@ -1,15 +1,8 @@
 {
-  "name": "ci-demo",
+  "name": "demo-node-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "test.js",
   "scripts": {
-    "test":  "node ./node_modules/jest/bin/jest.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "jest": "^30.2.0"
+    "start": "node test.js"
   }
 }
